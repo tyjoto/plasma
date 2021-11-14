@@ -1,5 +1,10 @@
 PlasmaApp: A multi-architecture implicit particle-in-cell proxy
 =========================================
+
+### THIS IS A COLLEGE SCIENTIFIC COMPUTING CLASS LEARNING PROJECT
+trying to take this PIC proxy app to make it into a PIC-DSMC proxy app
+while also becoming familarized with GITHUB 
+
 PlasmaApp is a flexible implicit charge and energy conserving implicit PIC framework.
 This codes aims to demonstrate the potential of using a fluid plasma model to accelerate a kinetic model 
 through a High-Low order system coupling. The multi-granularity of this problem gives it the ability to 
