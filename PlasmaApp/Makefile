@@ -29,9 +29,12 @@ TRILINOS_INCLUDES:=$(addprefix $(TRILINOS_INSTALL_DIR)/include/, $(TRILINOS_INCL
 all: 
 	echo "Building the PlasmaApp Framework"
 	cd $(SRCDIR); \
-	gmake -j 48 tests TOP_DIR=$(TOP_DIR) $(MFLAGS)
+	# 48 -> 8
+	gmake -j 8 tests TOP_DIR=$(TOP_DIR) $(MFLAGS)
 	
-packages: $(TRILINOS_INCLUDES) $(MESALIB_LIB) $(ParaViewInstallDir)/bin/paraview
+packages: $(TRILINOS_INCLUDES) $(MESALIB_LIB) 
+	# use to be on the above line
+	# $(ParaViewInstallDir)/bin/paraview
 	
 	
 # Rules to make trilinos include stuff
