@@ -12,6 +12,7 @@ all: $(TrilinosInstallDir)
 trilinos-11.4.1-Source.tar.gz:
 	#old: wget http://trilinos.sandia.gov/download/files/trilinos-11.4.1-Source.tar.gz
 ifeq ( "$(DisTar)","") 
+	echo "no tar file. Get tar file"
 else
 	rm $(DisTar) 
 endif
