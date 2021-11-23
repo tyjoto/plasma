@@ -18,13 +18,23 @@ The initial C++ implementation targets hybrid GPU + Multi-Core systems, but will
 This flexibility will be accomplished by separating the physics algorithms from the underlying architecture considerations through the use of C++ templates and class inheritance.
 
 
+### Required Packages
+Tested with:
+gcc/8.2.0
+openmpi/3.1.6
 
 ### Building 
 
-<dt><code>$>gmake</code></dt>
+Run the following in *location-of-repo*/plasma/
+<dt><code>$>gmake packages</code></dt>
 <dd>build all of the required libraries.
 
-<dt><code>$>gmake tests</code></dt>
+If trilinos is not installed, it will be.
+In *location-of-repo*/plasma/PlasmaApp/pkgs/trilinos/trilinos-build
+Run <dt><code>$>gmake install</code></dt>
+
+To make tests, run in *location-of-repo*/plasma/PlasmaApp
+<dt><code>$>gmake TRILINOS=1</code></dt>
 <dd>build all of the test routines
 
 Be sure to use the parallel build option <code>-j N</code> where N is the number of
@@ -51,6 +61,8 @@ to use the correct one.
 There are several test problems currently implemented.
 1. Two Stream Instability
 2. Ion Acoustic Shock
+
+gnuplot needs to be enabled
 
 
 running the Two Stream Instability problem
