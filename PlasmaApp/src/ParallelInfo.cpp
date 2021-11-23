@@ -322,10 +322,10 @@ void ParallelInfo::update_group(void)
 	int num_tasks_per_processor[nTasks_g];
 	int num_unique_procs;
 	int k = 0;
-	if(rank_g == 0){
-		printf("Sorting Names\n");
 	list<string> unique_procs;
 	list<string> unique_procs2;
+	if(rank_g == 0){
+		printf("Sorting Names\n");
 	for(int i=0;i<nTasks_g;i++)
 	{
 		string temp;

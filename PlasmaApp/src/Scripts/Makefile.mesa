@@ -22,8 +22,8 @@ $(MesaDir)/Makefile: $(MesaDir)/configure
 
 $(MesaLIB): $(MesaDir)/Makefile $(LIBDIR)
 	cd $(MesaDir); \
-	gmake -j 32
-	ln -f $(MesaDir)/libs/*.so* $(LIBDIR)/
+	gmake -j 12
+	ln -f $(MesaDir)/lib/*.so* $(LIBDIR)/
 	
 $(LIBDIR):
 	mkdir -p $(LIBDIR)

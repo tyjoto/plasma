@@ -4,13 +4,26 @@ TrilinosSrcDir:=$(PWD)/trilinos-11.4.1-Source
 TrilinosBuildDir:=$(PWD)/trilinos-build
 TrilinosInstallDir:=$(TRILINOS_DIR)
 
+
+DisTar:=Trilinos-trilinos-release-11-4-1.tar.gz
+
 all: $(TrilinosInstallDir)
  
 trilinos-11.4.1-Source.tar.gz:
-	wget http://trilinos.sandia.gov/download/files/trilinos-11.4.1-Source.tar.gz
+	#old: wget http://trilinos.sandia.gov/download/files/trilinos-11.4.1-Source.tar.gz
+ifeq ( "$(DisTar)","") 
+	rm $(DisTar) 
+else
+	echo "no tar file. Get tar file"
+endif
+
+	wget https://gitlab.osti.gov/jmwille/Trilinos/-/archive/trilinos-release-11-4-1/$(DisTar)
 
 $(TrilinosSrcDir): trilinos-11.4.1-Source.tar.gz
-	tar -xvf trilinos-11.4.1-Source.tar.gz
+    #old: tar -xvf trilinos-11.4.1-Source.tar.gz
+	tar -xvf $(DisTar) --transform s/Trilinos-trilinos-release-11-4-1/trilinos-11.4.1-Source/
+	sed -i '13s/elasticity.dat//' ./trilinos-11.4.1-Source/packages/ml/test/MultiLevelPreconditioner_Sys/CMakeLists.txt; \
+	sed -i '107s/return stream/return true/' ./trilinos-11.4.1-Source/packages/nox/src-lapack/NOX_LAPACK_Matrix.H
 
 $(TrilinosBuildDir)/Makefile: $(TrilinosSrcDir) do-configure.sh
 	mkdir -p $(TrilinosBuildDir); \
@@ -20,7 +33,7 @@ $(TrilinosBuildDir)/Makefile: $(TrilinosSrcDir) do-configure.sh
 
 $(TrilinosInstallDir): $(TrilinosBuildDir)/Makefile
 	cd $(TrilinosBuildDir); \
-	gmake -j 48 
+	gmake -j 8 
 	cd $(TrilinosBuildDir); \
 	gmake -j 48 install
 	

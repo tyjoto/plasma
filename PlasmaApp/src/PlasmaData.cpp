@@ -551,7 +551,7 @@ PlasmaData::PlasmaData(int argc,char* argv[],Normalization* normalizer) : argc_s
 	bobzeta = m0/(q0*q0*L0*L0*mu_0_p*n0);
 
 	parser->GetParam("XI_NORMALIZATION","--epsilon-op",xi,1.0e-6);
-	parser->GetParam("ZETA_NORMALIZATION","--max-op",bobzeta,40);
+	parser->GetParam("ZETA_NORMALIZATION","--max-op",bobzeta,40.0);
 
 //	bobzeta = 1.0;
 

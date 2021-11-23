@@ -73,7 +73,7 @@ endif
 
 
 ifndef MACHINE
-	LIBS = -lrt  -lmpichcxx 
+	LIBS = -lrt  #-lmpichcxx 
 	CUDA_LIB_DIR=/usr/local/cuda-5.0/lib64
 else
 ifeq "$(MACHINE)" "moonlight"
