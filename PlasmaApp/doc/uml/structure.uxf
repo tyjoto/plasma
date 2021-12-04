@@ -6,7 +6,7 @@ NSPECIES_MAX = 10
 NSUBCYCLE_BINS = 50
 
 --
-attridutes:
+attributes:
 + dt: realkind
 + tmax: realkind
 + time_done: realkind
