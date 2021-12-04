@@ -28,10 +28,12 @@ openmpi/3.1.6
 Run the following in *location-of-repo*/plasma/PlasmaApp
 
 <dt><code>$>gmake packages</code></dt>
-<dd>build all of the required libraries.
+<dd>builds all of the required libraries.
 
 If trilinos is not installed, it will be.
-In *location-of-repo*/plasma/PlasmaApp/pkgs/trilinos/trilinos-build
+
+In *location-of-repo*/plasma/PlasmaApp/pkgs/trilinos/trilinos-build,
+
 Run <dt><code>$>gmake install</code></dt>
 
 To make tests, run in *location-of-repo*/plasma/PlasmaApp
