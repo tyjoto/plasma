@@ -26,6 +26,7 @@ openmpi/3.1.6
 ### Building 
 
 Run the following in *location-of-repo*/plasma/PlasmaApp
+
 <dt><code>$>gmake packages</code></dt>
 <dd>build all of the required libraries.
 
