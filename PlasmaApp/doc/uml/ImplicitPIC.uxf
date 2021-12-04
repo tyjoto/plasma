@@ -1,0 +1,53 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>70</x><y>20</y><w>500</w><h>800</h></coordinates><panel_attributes>Class : ImplicitPIC
+--
+attributes:
+	/// Field Data for time \f$\mathcal{F}^{t}\f$
++ fields_old : FieldDataCPU*
+	/// Field Data for time \f$\mathcal{F}^{t+1}\f$
++ fields_next : FieldDataCPU*
+	/// Field Data for time \f$\mathcal{F}^{t+1/2}\f$
++ fields_half : NodeFieldData*
+
+	/// Particle Data for time \f$\mathcal{P}^{t}\f$
++ particles_old : NodeParticleList*
+	/// Particle Data for time \f$\mathcal{P}^{t+1}\f$
++ particles_next : NodeParticleList*
+
+	/// HO Moments for times \f$\mathcal{M}^{t}\f$ and \f$\mathcal{M}^{t+1}\f$
++ moments : NodeHOMoments*
+
+	/// LO system and field solver
++ LOsolver : FieldSolver*
+	/// Problem initializer used to setup initial particle distribution and fields
++ initializer : ProblemInitializer*
+
+	/// Simulation Information
++ pdata : PlasmaData*
++ rstatus : RunStatus*
++ output_ctrl : OutputCtrl*
+
+--
+Methods:
+	/// Total number of subcycle steps for all nodes
++ nsubsteps_total( ) : double&amp;
+	/// Total number of subcycle steps for individual node
++ nsteps_node( ) : double&amp;
+	/// Total number of outer piccard iterations
++ npiccard_outer( ) : int&amp; 
+	/// Squared number of piccard iterations
++ npiccard_outer2( ) : double&amp;
+
+	/// MPI rank
++ myid_mpi( ) : int
+
++ ImplicitPIC(in pdata_in : PlasmaData*, in LOsolver_in : FieldSolver*,
+			in  initializer_in : ProblemInitializer*) : constructor
++ ImplicitPIC(void) : contstructor
++ init(void) : void
++ run(void) : void
++ simulate(void) : void
++ save_timing( ) : void
++ output( ) : void
++ get_subcycle_dists( ) :  OutputPage
++ get_piccard_dists( ) : OutputPage
++ calc_timing(in perf_weight : double , in legend : const char* ) : std::string</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>710</x><y>200</y><w>160</w><h>30</h></coordinates><panel_attributes>Class : PlasmaData</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>200</y><w>170</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;150;10</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>250</y><w>170</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;150;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>710</x><y>250</y><w>160</w><h>30</h></coordinates><panel_attributes>Class : RunStatus</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>150</y><w>170</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;150;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>710</x><y>150</y><w>160</w><h>30</h></coordinates><panel_attributes>Class : ParallelInfo</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>300</y><w>170</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;150;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>710</x><y>300</y><w>160</w><h>30</h></coordinates><panel_attributes>Class : NodeFieldData</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>350</y><w>170</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;150;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>710</x><y>350</y><w>160</w><h>30</h></coordinates><panel_attributes>Class : NodeHOMoments</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>400</y><w>170</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;150;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>710</x><y>400</y><w>160</w><h>30</h></coordinates><panel_attributes>Class : NodeParticleList</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>450</y><w>170</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;150;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>710</x><y>450</y><w>160</w><h>30</h></coordinates><panel_attributes>Class : OutputCtrl</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>500</y><w>170</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;150;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>710</x><y>500</y><w>220</w><h>30</h></coordinates><panel_attributes>/Abstract Class : ProblemInitializer/</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>550</y><w>170</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;150;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>710</x><y>550</y><w>220</w><h>30</h></coordinates><panel_attributes>/Abstract Class : FieldSolver/</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>600</y><w>170</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;150;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>710</x><y>600</y><w>160</w><h>30</h></coordinates><panel_attributes>Class : OutputPage</panel_attributes><additional_attributes></additional_attributes></element></diagram>

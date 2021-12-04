@@ -1,0 +1,145 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Class : island_coalescence
+--
+attribuites:
++ epsilon : const double
++ lambda : const double
++ x0, y0 : const double
++ pdf : double*
++ nx, ny : const int
+--
+methods:
++ island_coalescence(
+in _epsilon : const double,
+in _lambda : const double,
+in _Lx : const double,
+in _Ly : const double,
+in _x0 :  const double,
+in _y0 : const double,
+in _nx : const int,
+in _ny : const int) : constructor
+
++ getxy( 
+in xp :  double, 
+in x : float&amp;amp;, in y : float&amp;amp;) : void
+
++ operator( ) ( in xp : double ) : double&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;Class : rasied_cos
+--
+attribuites:
++ alpha : float
++ k : float
+--
+methods:
++ rasied_cos( 
+in alpha_in : double, 
+in k_in : double) : constructor
+
++ operator( ) (in xp : double) : double</help_text><element><id>UMLClass</id><coordinates><x>50</x><y>60</y><w>400</w><h>490</h></coordinates><panel_attributes>/Abstract Class : ProblemInitializer/
+--
+attribuites:
++ pdata : PlasmaData*
++ title : char*
+--
+methods:
++ ~ProblemInitializer( ) : virtual destructor
+
++ initialixe_particles( 
+in fields :  FieldDataCPU*, 
+in moments :  NodeHOMoments* ) : virtual void
+
++ init_particle(
+in px : realkind&amp;, in py : realkind&amp;, in pz : realkind&amp;,
+in ix : int&amp;, in iy : int&amp;, in iz : int&amp;,
+in vx : realkind&amp;,  in vy : realkind&amp;,  in vz : realkind&amp;,
+in ispecies :  int, in iptcl : int, in npctcls :  int, in ioffset :  int) : virtual void
+
++ init_velocities(
+in vx : realkind&amp;, in vy : realkind&amp;, in vz : realkind&amp;,
+in ispecies : int, in iptcl :  int) : virtual void
+
++ check_step(
+in particels_next : NodeParticleList*,
+in moments : Nonde HOMoments*,
+in fields_old : FieldDataCPU*,
+in fields_next : FieldDataCPU* ) : virtual void
+
++ finish( 
+in particles : Node{articleList*,
+in moments : NodeHOMoments*,
+in fields_half : FieldDataCPU*) : virtual void
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>530</x><y>260</y><w>180</w><h>30</h></coordinates><panel_attributes>Class : Plasmadata</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>270</y><w>110</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;90;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>530</x><y>150</y><w>250</w><h>40</h></coordinates><panel_attributes>Note..
+bg=blue
+typedef: realkind = float or double (for MPI)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>590</y><w>210</w><h>180</h></coordinates><panel_attributes>Class : rasied_cos
+--
+attribuites:
++ alpha : float
++ k : float
+--
+methods:
++ rasied_cos( 
+in alpha_in : double, 
+in k_in : double) : constructor
+
++ operator( ) (in xp : double) : double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>270</x><y>590</y><w>210</w><h>180</h></coordinates><panel_attributes>Class : rasied_sin
+--
+attribuites:
++ alpha : float
++ k : float
+--
+methods:
++ rasied_sin( 
+in alpha_in : double, 
+in k_in : double) : constructor
+
++ operator( ) (in xp : double) : double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>540</x><y>380</y><w>250</w><h>390</h></coordinates><panel_attributes>Class : island_coalescence
+--
+attribuites:
++ epsilon : const double
++ lambda : const double
++ x0, y0 : const double
++ Lx, Ly : const double
++ pdf : double*
++ nx, ny : const int
+--
+methods:
++ island_coalescence(
+in _epsilon : const double,
+in _lambda : const double,
+in _Lx : const double,
+in _Ly : const double,
+in _x0 :  const double,
+in _y0 : const double,
+in _nx : const int,
+in _ny : const int) : constructor
+
++ getxy( 
+in xp :  double, 
+in x : float&amp;, in y : float&amp;) : void
+
++ operator( ) ( in xp : double ) : double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>850</x><y>380</y><w>250</w><h>390</h></coordinates><panel_attributes>Class : ewave_2d
+--
+attribuites:
++ kt : const double
++ alpha : const double
++ x0, y0 : const double
++ Lx, Ly : const double
++ pdf : double*
++ nx, ny : const int
+--
+methods:
++ ewave_2d(
+in _kt : const double,
+in _alpha : const double,
+in _Lx : const double,
+in _Ly : const double,
+in _x0 :  const double,
+in _y0 : const double,
+in _nx : const int,
+in _ny : const int) : constructor
+
++ getxy( 
+in xp :  double, 
+in x : float&amp;, in y : float&amp;) : void
+
++ operator( ) ( in xp : double ) : double</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>160</y><w>110</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;90;10</additional_attributes></element></diagram>

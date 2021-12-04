@@ -1,0 +1,109 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>775</x><y>0</y><w>460</w><h>1540</h></coordinates><panel_attributes>Class: PlasmaData(int argc, char* argv[ ] )
+--
+Notes:
+typedef: realkind = float or double (for MPI)
+NSPECIES_MAX = 10
+NSUBCYCLE_BINS = 50
+
+--
+attridutes:
++ dt: realkind
++ tmax: realkind
++ time_done: realkind
+
++ qspecies[NSPECIES_MAX]: realkind
++ mspecies[NSPECIES_MAX]: realkind
++ wspecies[NSPECIES_MAX]: realkind
+
++ epsilon_r, epsilon_a, tol_outer_picard: realkind
+
++ dxdi,dydi,dzdi: realkind
++ didx,didy,didz: realkind
+
++ xmin, ymin, zmin: realkind // interms of electron Debye Length
++ L_debye: realkind
+
++ Te: realkind // electron temp.
++ omega_pe: realkind // electron plasma freq.
+
++ niter_max: int
++ nSubcycle_max: int
++ nSubcycle_min: int
++ nOuterPicard_max: int
++ nsteps: int
++ nreturn: short int // # prtcls. finished before exiting particleObj
+
+// initial parameters inputted by user (SI units)
++ m0: realkind // reference mass in kg
++ q0: realkind // Reference charge in C
++ L0: realkind // Reference Length in m
++ n0: realkind // Reference number density in atom/m^3
++ T0: realkind // Reference Temperature in Joules
+
+/// System Lengths in m
++ Lx_p, Ly_p, Lz_p: realkind
+
++ Te_p: realkind // Electron temperature in physical units (same units as T0)
++ Ti_p: realkind // ion temperature in physical units (same units as T0)
++ ne_p: realkind // Electron density in physical units (same units as n0)
++ mi_p: realkind // Ion density in physical units (same units as n0)
++ mi_p: realkind // Ion mass
+
++ q_h[NSPECIES_MAX]: realkind // q_alpha / q0
++ m_h[NSPECIES_MAX]: realkind // m_alpha / m0
++ n_bh[NSPECIES_MAX]: realkind // n_bar / n0
++ T_h[NSPECIES_MAX]: realkind // T_alpha / T0
+
++ Lx,Ly,Lz: realkind // System lengths Lx_p / L0, Ly_p / L0 ...
+
++ xi: realkind // constant normalized parameter
++ bobzeta: realkind
+
++ spacer[10]: realkind
+
++ eps0_h: realkind
++ mu0_h: realkind
+
++ nx,ny,nz: int
+
++ nptcls: int // num of prtcls to run on node
++ nspecies: int
+
++ nptcls_device[3]: int
++ device_multiplier[3]: float
++ nptcls_species[NSPECIES_MAX]: int
+
++ prob_type: int
++ prob_case: int
+
++ ndimensions: int  //number of spatial dimensions
++ nVelocity: int // number of velocity dimensions
++ iEM: int // Electostatic = 0; Electromagnetic = 1
+
++ argc_s: int
++ argv_s : char **
+
++ pythonScript: string*
+
++ node_info: class ParallelInfo*
++ thread_info: class ParallelInfo**
++ rdata: class RunData*
++ rstatus: class RunStatus*
++ RandGens: class RandomGenerator**
++ output_ctrl: class OutputCtrl*
+
++ parser: class InputParser*
+
+
+--
+Methods:
++readInput(string&amp;): void
++getKeyword(char*, string&amp;, string&amp;): void
++set_cuda_device(): void
++setup(void): void
++parse_normalization(int argc, char*argv[ ]) : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>195</x><y>200</y><w>100</w><h>30</h></coordinates><panel_attributes>/FieldSolver/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>140</x><y>400</y><w>210</w><h>70</h></coordinates><panel_attributes>_object: Smp_
+--
+id: Long="36548"
+[waiting for message]</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>220</y><w>100</w><h>200</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>10;10;10;180</additional_attributes></element></diagram>

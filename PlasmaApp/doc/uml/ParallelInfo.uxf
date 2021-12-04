@@ -1,0 +1,70 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Class : GPUInfo
+--
+attributes:
++ ClusterSortDim : int // Dimension of sorting cluster (GPU)
++ ClusterStorDim : int // Dimension of storage cluster (GPU)
++ TBpcluster : int // Number of thread blocks per cluster
++ multiplier : float // Number of particles multiplier
++ igpu: int // GPU id</help_text><element><id>UMLClass</id><coordinates><x>0</x><y>170</y><w>500</w><h>610</h></coordinates><panel_attributes>Class : ParallelInfo
+--
+attributes:
++ rank_g : int //Global mpi rank
++ rank_n : int // Node MPI rank
++ inode : int // MPI node
+
++ nNodes : int // Number of unique mpi nodes
++ nTasks_g :  int // Number of MPI tasks global
++ nTasks_n : int // Number of MPI tasks on node
+
++ nGPU : int // number of GPUs
++ nMIC : int // number of MIC devices
++ nCPU : int // number of CPU threads to run
++ nProcs : int // number of physical processors on node
+
++ nDevices : int // Total number of computational devices (1 + nGPU + nMIC)
++ nDevices2 : int
++ nThreads : int // Total number of OpenMP threads (nCPU + nGPU + nMIC)
++ nUnits : int // Total number of distinct processing units (nProcs + nGPU + nMIC)
+
++ device_type : int // Type of device to use 0=CPU, 1=GPU, 2=MIC
++ device_id : int // Which GPU / CPU / MIC am I associated with
+
++ ispecies : int // Which species to use
++ nspecies : int
+
+
++ random_seed : int
++ generator : RandGen* // Random number generator for this thread
+
++ cpu_info : CPUInfo*
++ gpu_info : GPUInfo*
++ mic_info : MICInfo*
+--
+Methods:
++ ParallelInfo( ) : constructor
++ init_info(in argc : int, in argv[ ] : char*) : ParallelInfo*
++ update_group(void) : void
++ count_devices( ) : void
++ void set_affinity(void) : void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>20</y><w>100</w><h>30</h></coordinates><panel_attributes>Class : RandGen</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>210</x><y>0</y><w>330</w><h>120</h></coordinates><panel_attributes>Class : GPUInfo
+--
+attributes:
++ ClusterSortDim : int // Dimension of sorting cluster (GPU)
++ ClusterStorDim : int // Dimension of storage cluster (GPU)
++ TBpcluster : int // Number of thread blocks per cluster
++ multiplier : float // Number of particles multiplier
++ igpu : int // GPU id</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>530</x><y>180</y><w>330</w><h>120</h></coordinates><panel_attributes>Class : MICInfo
+--
+attributes:
++ vec_length : int // CPU vector length
++ nthreads : int // umber of MIC threads to run
++ ClusterSortDim : int // Dimension of sorting cluster 
++ ClusterStorDim : int // Dimension of storage cluster 
++ multiplier : float // Number of particles multiplier</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>530</x><y>480</y><w>330</w><h>130</h></coordinates><panel_attributes>Class : CPUInfo
+--
+attributes:
++ iParticleListCPU : char // Which CPU particle list to use
++ iFieldDataCPU : char // Which CPU field data to use
++ vec_length : int // CPU vector length
++ nthreads : int // umber of CPU threads to run
++ multiplier : float // Number of particles multiplier</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>40</y><w>30</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;130;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>346</x><y>110</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>489</x><y>290</y><w>230</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;60;210;60;210;10</additional_attributes></element><element><id>Relation</id><coordinates><x>489</x><y>600</y><w>240</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;50;220;50;220;10</additional_attributes></element></diagram>

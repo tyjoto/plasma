@@ -1,0 +1,152 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;630&lt;/x&gt;&lt;y&gt;200&lt;/y&gt;&lt;w&gt;140&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;&amp;lt;&amp;lt;-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;120;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;750&lt;/x&gt;&lt;y&gt;200&lt;/y&gt;&lt;w&gt;160&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;Class : PlasmaData&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;630&lt;/x&gt;&lt;y&gt;200&lt;/y&gt;&lt;w&gt;140&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;&amp;lt;&amp;lt;-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;120;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;750&lt;/x&gt;&lt;y&gt;200&lt;/y&gt;&lt;w&gt;160&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;Class : PlasmaData&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;630&lt;/x&gt;&lt;y&gt;200&lt;/y&gt;&lt;w&gt;140&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;&amp;lt;&amp;lt;-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;120;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;750&lt;/x&gt;&lt;y&gt;200&lt;/y&gt;&lt;w&gt;160&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;Class : PlasmaData&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;630&lt;/x&gt;&lt;y&gt;200&lt;/y&gt;&lt;w&gt;140&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;&amp;lt;&amp;lt;-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;120;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;750&lt;/x&gt;&lt;y&gt;200&lt;/y&gt;&lt;w&gt;160&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;Class : PlasmaData&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;630&lt;/x&gt;&lt;y&gt;200&lt;/y&gt;&lt;w&gt;140&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;&amp;lt;&amp;lt;-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;120;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;750&lt;/x&gt;&lt;y&gt;200&lt;/y&gt;&lt;w&gt;160&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;Class : PlasmaData&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;630&lt;/x&gt;&lt;y&gt;200&lt;/y&gt;&lt;w&gt;140&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;&amp;lt;&amp;lt;-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;120;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;750&lt;/x&gt;&lt;y&gt;200&lt;/y&gt;&lt;w&gt;160&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;Class : PlasmaData&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;630&lt;/x&gt;&lt;y&gt;200&lt;/y&gt;&lt;w&gt;140&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;&amp;lt;&amp;lt;-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;120;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;750&lt;/x&gt;&lt;y&gt;200&lt;/y&gt;&lt;w&gt;160&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;Class : PlasmaData&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;Space for diagram notes&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;630&lt;/x&gt;&lt;y&gt;200&lt;/y&gt;&lt;w&gt;140&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;&amp;lt;&amp;lt;-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;120;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;750&lt;/x&gt;&lt;y&gt;200&lt;/y&gt;&lt;w&gt;160&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;Class : PlasmaData&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;630&lt;/x&gt;&lt;y&gt;200&lt;/y&gt;&lt;w&gt;140&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;&amp;lt;&amp;lt;-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;120;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;750&lt;/x&gt;&lt;y&gt;200&lt;/y&gt;&lt;w&gt;160&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;Class : PlasmaData&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;630&lt;/x&gt;&lt;y&gt;200&lt;/y&gt;&lt;w&gt;140&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;&amp;lt;&amp;lt;-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;120;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;750&lt;/x&gt;&lt;y&gt;200&lt;/y&gt;&lt;w&gt;160&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;Class : PlasmaData&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;630&lt;/x&gt;&lt;y&gt;200&lt;/y&gt;&lt;w&gt;140&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;&amp;lt;&amp;lt;-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;120;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;750&lt;/x&gt;&lt;y&gt;200&lt;/y&gt;&lt;w&gt;160&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;Class : PlasmaData&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;630&lt;/x&gt;&lt;y&gt;200&lt;/y&gt;&lt;w&gt;140&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;&amp;lt;&amp;lt;-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;120;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;750&lt;/x&gt;&lt;y&gt;200&lt;/y&gt;&lt;w&gt;160&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;Class : PlasmaData&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;</help_text><element><id>UMLClass</id><coordinates><x>130</x><y>0</y><w>500</w><h>2240</h></coordinates><panel_attributes>Class : OutputCtrl
+--
+attributes:
++  pdata : plasmaData*
++ status : RunStatus*
+
++ iplot : bool
++ iSave_plots : bool
++ iWrite_data : bool
++ iFinalOutput : bool
+
++ iExitSave : bool
+
++ OutputInterval : int
++ PlotInterval : int
++ PlotSaveInterval : int
+
++ CurPlot : int
+
++ charge_cons : float*
++ energy_cons : float*
++ field_energy : float*
++ particle_energy : float*
++ Bfield_energy : float*
++ Efield_energy : float*
++ species_energy : float**
++ momentum_cons : float*
+
++ time_array : float*
+
++ charge_diffs : float**
++ current_diffs : float**
++ lotoho_array : float*
++ ncalls_lotoho : int
+
++ kE0,pE0,tE0 : double
+
++ EfieldFile : std::string*
++ BfieldFile : std::string*
++ AfieldFile : std::string*
+
+	// Plot Handles
++ cons_plots : gnuplot_ctrl**
++ field_plots : gnuplot_ctrl**
++ moment_plots : gnuplot_ctrl**
++ particle_plot : gnuplot_ctrl**
++ plot_titles : std::string***
++ x_labels : std::string***
++ y_labels : std::string***
++ n_cons_plots : int
++ n_field_plots : int
++ n_moment_plots : int
++ n_particle_plots : int
+
++ lStreams : LogStream**
++ charts : googleChart**
++ nStreams : int
++ nCharts : int
+
++ control : WebControlSystem*
++ stream : sseDataStream*
++ server : sseServer*
++ exit_control : int
+
+	/// Timer for particle push
++ push_timer : CPUTimer*
+	/// Timer for entire HO system
++ HOSolve_timer : CPUTimer*
+	/// Timer for MPI Communication
++ Comm_timer : CPUTimer*
+	/// Timer for total run time
++ total_timer : CPUTimer*
+	/// Timer for LO system solve
++ LOSolve_timer : CPUTimer*
+	/// Timer for single time step
++ step_timer : CPUTimer*
+	/// Timer for coprocessing
++ coprocess_timer : CPUTimer*
+--
+Methods:
++ OutputCtrl(
+			in  _pdata : PlasmaData*, 
+			in argc : int, 
+			in  argv[ ] : char*) : constructor
+
++ InitialOutput(
+			in fields : NodeFieldData*, 
+			in fields_old : FieldDataCPU*,
+			in fields_next : FieldDataCPU*,
+			in moments : NodeHOMoments*, 
+			in particles : NodeParticleList*) : void
+
++ StepOutput(
+			in  moments : NodeHOMoments*,
+			in particles : NodeParticleList*, in fields_old : FieldDataCPU*,
+			in fields_next : FieldDataCPU*) : void
+
++ FinalOutput(
+			in moments : NodeHOMoments*,
+			in particles : NodeParticleList*,
+			in fields_old : FieldDataCPU*, 
+			in fields_next : FieldDataCPU*) : void
+
++ InitialCoprocess(
+			in fields : NodeFieldData*,
+			in moments : NodeHOMoments*,
+			in particles : NodeParticleList*) : void
+
++ StepCoprocess(
+			in istep : int,
+			in moments : NodeHOMoments*,
+			in particles : NodeParticleList*,
+			in fields_old : FieldDataCPU*,
+			in fields_next : FieldDataCPU*) : void
+
++ FinalCoprocess(
+			in moments : NodeHOMoments*,
+			in particles : NodeParticleList*,
+			in fields_old : FieldDataCPU*,
+			in fields_next : FieldDataCPU*) : void
+
++ PlotFields1D(in fields : FieldDataCPU*, in icomponent : int) : void
+
++ PlotMoments1D(in moments : HOMomentsCPU*) : void
+
++ PlotParticles1D(in particles : NodeParticleList*) : void
+
++ PlotFields2D(in fields : FieldDataCPU*, in icomponent : int) : void
+
++ PlotMoments2D(in moments : HOMomentsCPU*, in ispecies : int) : void
+
++ PlotParticles2D(in particles : NodeParticleList*) : void
+
++ save_plots(void) : void
+
++ plotpath(in plot_name : std::string, in plot_number : int) : std::string 
+
++ save_timing(in particles : NodeParticleList*) : void
+
++ calc_timing(in perf_weight : double , in legend : const char*) : std::string
+
++ total_substeps(void) :double
+
++ istep(void) : const int&amp;
+
++ SaveField(in fields : FieldDataCPU* in istep : int, in iField: int) : void
+
++ SaveMesh(void) : void
+
++ RecordMomentDiffs(in charge_dif : double*, in current_dif : double*) : void
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>800</x><y>180</y><w>160</w><h>30</h></coordinates><panel_attributes>Class : PlasmaData</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>180</y><w>200</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;180;10</additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>230</y><w>200</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;180;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>800</x><y>230</y><w>160</w><h>30</h></coordinates><panel_attributes>Class : RunStatus</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>130</y><w>200</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;180;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>800</x><y>130</y><w>160</w><h>30</h></coordinates><panel_attributes>Class : CPUTimer</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>280</y><w>200</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;180;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>800</x><y>280</y><w>160</w><h>30</h></coordinates><panel_attributes>Class : NodeFieldData</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>330</y><w>200</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;180;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>800</x><y>330</y><w>160</w><h>30</h></coordinates><panel_attributes>Class : NodeHoMoments</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>380</y><w>200</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;180;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>800</x><y>380</y><w>160</w><h>30</h></coordinates><panel_attributes>Class : NodeParticleList</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>430</y><w>200</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;180;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>800</x><y>430</y><w>160</w><h>30</h></coordinates><panel_attributes>Class : HoMomentsCPU</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>480</y><w>200</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;180;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>800</x><y>480</y><w>160</w><h>30</h></coordinates><panel_attributes>Class : LogStream</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>530</y><w>200</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;180;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>800</x><y>530</y><w>160</w><h>30</h></coordinates><panel_attributes>Class : googleChart</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>580</y><w>200</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;180;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>800</x><y>580</y><w>160</w><h>30</h></coordinates><panel_attributes>Class : sseDataStream</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>630</y><w>200</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;180;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>800</x><y>630</y><w>160</w><h>30</h></coordinates><panel_attributes>Class : sseServer</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>680</y><w>200</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;180;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>800</x><y>680</y><w>160</w><h>30</h></coordinates><panel_attributes>Class : WebControlSystem</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>800</x><y>729</y><w>160</w><h>30</h></coordinates><panel_attributes>Class : gnuplot_ctrl</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>729</y><w>200</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;180;10</additional_attributes></element></diagram>

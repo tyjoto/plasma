@@ -1,0 +1,116 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;540&lt;/x&gt;&lt;y&gt;270&lt;/y&gt;&lt;w&gt;250&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;&amp;lt;&amp;lt;-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;230;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;540&lt;/x&gt;&lt;y&gt;270&lt;/y&gt;&lt;w&gt;250&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;&amp;lt;&amp;lt;-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;230;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;540&lt;/x&gt;&lt;y&gt;270&lt;/y&gt;&lt;w&gt;250&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;&amp;lt;&amp;lt;-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;230;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;540&lt;/x&gt;&lt;y&gt;270&lt;/y&gt;&lt;w&gt;250&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;&amp;lt;&amp;lt;-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;230;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;540&lt;/x&gt;&lt;y&gt;270&lt;/y&gt;&lt;w&gt;250&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;&amp;lt;&amp;lt;-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;230;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;540&lt;/x&gt;&lt;y&gt;270&lt;/y&gt;&lt;w&gt;250&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;&amp;lt;&amp;lt;-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;230;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;770&lt;/x&gt;&lt;y&gt;1210&lt;/y&gt;&lt;w&gt;120&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;Normalization&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;790&lt;/x&gt;&lt;y&gt;1140&lt;/y&gt;&lt;w&gt;120&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;OutputCtrl&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;760&lt;/x&gt;&lt;y&gt;1070&lt;/y&gt;&lt;w&gt;120&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;RandomGenerator&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;760&lt;/x&gt;&lt;y&gt;960&lt;/y&gt;&lt;w&gt;100&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;RunStatus&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;760&lt;/x&gt;&lt;y&gt;900&lt;/y&gt;&lt;w&gt;100&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;ParallelInfo&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>92</x><y>0</y><w>460</w><h>1640</h></coordinates><panel_attributes>Class: PlasmaData
+--
+attridutes:
++ dt : realkind
++ tmax : realkind
++ time_done : realkind
+
++ qspecies[NSPECIES_MAX] : realkind
++ mspecies[NSPECIES_MAX] : realkind
++ wspecies[NSPECIES_MAX] : realkind
+
++ epsilon_r, epsilon_a, tol_outer_picard : realkind
+
++ dxdi,dydi,dzdi : realkind
++ didx,didy,didz : realkind
+
++ xmin, ymin, zmin : realkind // interms of electron Debye Length
++ L_debye : realkind
+
++ Te: realkind // electron temp.
++ omega_pe : realkind // electron plasma freq.
+
++ niter_max : int
++ nSubcycle_max : int
++ nSubcycle_min : int
++ nOuterPicard_max : int
++ nsteps : int
++ nreturn : short int // # prtcls. finished before exiting particleObj
+
+// initial parameters inputted by user (SI units)
++ m0 : realkind // reference mass in kg
++ q0 : realkind // Reference charge in C
++ L0 : realkind // Reference Length in m
++ n0 : realkind // Reference number density in atom/m^3
++ T0 : realkind // Reference Temperature in Joules
+
+/// System Lengths in m
++ Lx_p, Ly_p, Lz_p : realkind
+
++ Te_p : realkind // Electron temperature in physical units (same units as T0)
++ Ti_p : realkind // ion temperature in physical units (same units as T0)
++ ne_p : realkind // Electron density in physical units (same units as n0)
++ mi_p : realkind // Ion density in physical units (same units as n0)
++ mi_p : realkind // Ion mass
+
++ q_h[NSPECIES_MAX] : realkind // q_alpha / q0
++ m_h[NSPECIES_MAX] : realkind // m_alpha / m0
++ n_bh[NSPECIES_MAX] : realkind // n_bar / n0
++ T_h[NSPECIES_MAX] : realkind // T_alpha / T0
+
++ Lx,Ly,Lz : realkind // System lengths Lx_p / L0, Ly_p / L0 ...
+
++ xi : realkind // constant normalized parameter
++ bobzeta : realkind
+
++ spacer[10] : realkind
+
++ eps0_h : realkind
++ mu0_h : realkind
+
++ nx,ny,nz:  int
+
++ nptcls : int // num of prtcls to run on node
++ nspecies : int
+
++ nptcls_device[3] : int
++ device_multiplier[3] : float
++ nptcls_species[NSPECIES_MAX] : int
+
++ prob_type : int
++ prob_case : int
+
++ ndimensions : int  //number of spatial dimensions
++ nVelocity : int // number of velocity dimensions
++ iEM : int // Electostatic = 0; Electromagnetic = 1
+
++ argc_s : int
++ argv_s : char **
+
++ pythonScript : string*
+
++ node_info :  ParallelInfo*
++ thread_info :  ParallelInfo**
++ rdata :  RunData*
++ rstatus :  RunStatus*
++ RandGens :  RandomGenerator**
++ output_ctrl :  OutputCtrl*
+
++ parser :  InputParser*
+
+
+--
+Methods:
++PlasmaData(
+in argc : int, i
+n argv[ ] : char*) : constructor
+
++readInput(in infile : const std::string&amp;) : void
+
++getKeyword(
+in inBuf : char*, 
+in keyword : std::string&amp;, 
+in rest : std::string&amp;) : void
+
++set_cuda_device() : void
+
++setup(void) : void
+
++parse_normalization(
+in argc : int, 
+in argv[ ] : char*) : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>690</x><y>49</y><w>270</w><h>70</h></coordinates><panel_attributes>Note..
+bg=blue
+--
+typedef: realkind = float or double (for MPI)
+NSPECIES_MAX = 10
+NSUBCYCLE_BINS = 50</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>549</x><y>109</y><w>290</w><h>140</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>270;10;270;110;10;111</additional_attributes></element><element><id>UMLClass</id><coordinates><x>770</x><y>270</y><w>120</w><h>30</h></coordinates><panel_attributes>ParallelInfo</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>770</x><y>340</y><w>120</w><h>30</h></coordinates><panel_attributes>RunStatus</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>770</x><y>410</y><w>120</w><h>30</h></coordinates><panel_attributes>RunData</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>770</x><y>490</y><w>120</w><h>30</h></coordinates><panel_attributes>RandomGenerator</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>770</x><y>580</y><w>120</w><h>30</h></coordinates><panel_attributes>OutputCtrl</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>770</x><y>670</y><w>120</w><h>30</h></coordinates><panel_attributes>Normalization</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>770</x><y>830</y><w>120</w><h>30</h></coordinates><panel_attributes>sseServer</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>770</x><y>750</y><w>120</w><h>30</h></coordinates><panel_attributes>LogStream</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>270</y><w>250</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;230;10</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>340</y><w>250</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;230;10</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>410</y><w>250</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;230;10</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>490</y><w>250</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;230;10</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>580</y><w>250</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;230;10</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>670</y><w>250</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;230;10</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>750</y><w>250</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;230;10</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>830</y><w>250</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;230;10</additional_attributes></element></diagram>
