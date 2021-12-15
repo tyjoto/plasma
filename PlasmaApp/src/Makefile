@@ -20,21 +20,24 @@ include $(TRILINOS_INSTALL_DIR)/include/Makefile.export.AztecOO
 include $(TRILINOS_INSTALL_DIR)/include/Makefile.export.NOX
 endif
 #Includes
-INCLUDE_PATHS:= -I/usr/local/cuda/include \
-				-I/usr/local/cuda-5.0/include \
-				-I./Util \
-				-I/projects/opt/cuda/5.5/include \
+INCLUDE_PATHS:=	-I./Util \
 				-I./Field_Solvers/ES1D \
-				-I/users/payne/cuda/include \
-				-I/usr/include/mpich2-x86_64 \
-				-I/opt/cudatoolkit-5.0/include 
+				-I/sw/arcts/centos7/stacks/gcc/4.8.5/openmpi/3.1.6/include \
+				-I/sw/arcts/centos7/cuda/8.0.61/include 
+
+				#-I/usr/local/cuda/include \
+				#-I/users/payne/cuda/include \
+				#-I/usr/include/mpich2-x86_64 \
+				#-I/opt/cudatoolkit-5.0/include 
+				#-I/projects/opt/cuda/5.5/include \
+				#-I/usr/local/cuda-5.0/include \
 #				$(NOX_INCLUDE_DIRS)
 #				-I/opt/cudatoolkit-4.1/include 
 	
 				
 #Library Path
 #LIBRARY_PATHS=/usr/local/cuda-5.0/lib64:/usr/lib64/mpich2/lib:$(LD_LIBRARY_PATH):/usr/lib64/openmpi/lib:/usr/lib64
-LIBRARY_PATHS=/usr/local/cuda-5.0/lib64:$(LD_LIBRARY_PATH):/usr/lib64
+LIBRARY_PATHS=/sw/arcts/centos7/cuda/8.0.61/lib64:$(LD_LIBRARY_PATH):/usr/lib64
 CXX_FLAGS_ALL = -O3  -std=c++0x  -fopenmp -pthread -march=native -DNO_MIC
 CXX_FLAGS= $(CXX_FLAGS_ALL) $(INCLUDE_PATHS)  #-L${LIBRARY_PATHS}
 #CXX_FLAGS+=-Dshitty_timer# -bf-include=$(BYFL_INCLUDE) 
@@ -74,7 +77,7 @@ endif
 
 ifndef MACHINE
 	LIBS = -lrt  #-lmpichcxx 
-	CUDA_LIB_DIR=/usr/local/cuda-5.0/lib64
+	CUDA_LIB_DIR=/sw/arcts/centos7/cuda/8.0.61/lib64
 else
 ifeq "$(MACHINE)" "moonlight"
 	LIBS = -lrt -lmpi_cxx 
