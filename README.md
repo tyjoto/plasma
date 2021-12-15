@@ -113,7 +113,7 @@ running the Two Stream Instability problem
 <dt><code>-x0 #, -y0 #, -z0 #</dt></code>
 <dd>System origin
 
-<dt><code>--vec\_length #</dt></code>
+<dt><code>--vec_length #</dt></code>
 <dd>Length of particle list object for cpu particle push
 
 <dt><code>-dt #</dt></code>
