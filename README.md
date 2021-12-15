@@ -17,30 +17,29 @@ The initial C++ implementation targets hybrid GPU + Multi-Core systems, but will
 
 This flexibility will be accomplished by separating the physics algorithms from the underlying architecture considerations through the use of C++ templates and class inheritance.
 
-
+-------------------------
 ### Required Packages
 -------------------------
 ***Tested for NON-CUDA build:***
-
-gcc/8.2.0
-openmpi/3.1.6
+    - gcc/8.2.0
+    - openmpi/3.1.6
 
 ***Tested for CUDA build:***
+    - gcc/4.8.5
+    - openmpi/3.1.6
+    - cuda/8.0.61
 
-gcc/4.8.5
-openmpi/3.1.6
-cuda/8.0.61
-
+-----------------------------------------
 ### Required ENV variables for CUDA Build
+-----------------------------------------
+    - CUDA\_HOME
+    - CUDA\_INCLUDE
+    - CUDA\_LIB
+    - MPI\_HOME
 
-CUDA\_HOME
-CUDA\_INCLUDE
-CUDA\_LIB
-
-MPI\_HOME
-
-
-### Building 
+------------
+### Building
+------------ 
 
 Run the following in *location-of-repo*/plasma/PlasmaApp
 
@@ -52,22 +51,24 @@ If trilinos is not installed, it will be.
 
 In *location-of-repo*/plasma/PlasmaApp/pkgs/trilinos/trilinos-build,
 
-Run <dt><code>$>gmake install</code></dt>
+Run <dt><code>$ >gmake install</code></dt>
 
 To make tests, run in *location-of-repo*/plasma/PlasmaApp
-<dt><code>$>gmake TRILINOS=1</code></dt>
+<dt><code>$ >gmake TRILINOS=1</code></dt>
 <dd>build all of the test routines
 
 Be sure to use the parallel build option <code>-j N</code> where N is the number of
 threads to use. 
 
 Note: Double precision is toggled in the file PlasmaData.h via the preprocessor define
-<code>DOUBLE_PRECISION</code>. to use single precision simply comment out this line of code.
+<code>DOUBLE\_PRECISION</code>. to use single precision simply comment out this line of code.
 
 Note 2: MPI libraries may be different on your machine. You may have to edit the makefile
 to use the correct one.
 
-#### Make arguments 
+-------------------
+#### Make arguments
+------------------- 
 <dt><code>USECUDA=1</dt></code>
 <dd> Enables and builds CUDA parts of the code (Requires CUDA 5.0 or later)
 
@@ -76,8 +77,9 @@ to use the correct one.
 
 
 
-
+-----------
 ### Running
+-----------
 
 ***NOT TESTED for GPUs***
 
@@ -90,13 +92,14 @@ gnuplot needs to be enabled
 
 running the Two Stream Instability problem
 
-<dt><code>$> mpirun -N $NUM_NODES -n $NUM_TASKS ./bin/TwoStream_test -np $NUM_PTCLS -nx 32 -Lx 1 -dt 0.5 -s 100</code></dt>
+<dt><code>$> mpirun -N $NUM\_NODES -n $NUM\_TASKS ./bin/TwoStream\_test -np $NUM\_PTCLS -nx 32 -Lx 1 -dt 0.5 -s 100</code></dt>
 
-<dt><code>$> mpirun -N $NUM_NODES -n $NUM_TASKS ./bin/IonAcoustic_test -np $NUM_PTCLS -nx 128 -Lx 144 -dt 0.5 -s 1000</code></dt>
+<dt><code>$> mpirun -N $NUM\_NODES -n $NUM\_TASKS ./bin/IonAcoustic\_test -np $NUM\_PTCLS -nx 128 -Lx 144 -dt 0.5 -s 1000</code></dt>
 
 
-
+--------------------------
 ### Command Line Arguments
+--------------------------
 
 <dt><code>-nx #, -ny #, -nz #</dt></code>
 <dd>Number of cells in the x, y, and z dimensions
@@ -107,7 +110,7 @@ running the Two Stream Instability problem
 <dt><code>-x0 #, -y0 #, -z0 #</dt></code>
 <dd>System origin
 
-<dt><code>--vec_length #</dt></code>
+<dt><code>--vec\_length #</dt></code>
 <dd>Length of particle list object for cpu particle push
 
 <dt><code>-dt #</dt></code>
