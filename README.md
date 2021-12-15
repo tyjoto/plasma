@@ -21,10 +21,12 @@ This flexibility will be accomplished by separating the physics algorithms from 
 ### Required Packages
 -------------------------
 ***Tested for NON-CUDA build:***
+   
     - gcc/8.2.0
     - openmpi/3.1.6
 
 ***Tested for CUDA build:***
+
     - gcc/4.8.5
     - openmpi/3.1.6
     - cuda/8.0.61
@@ -32,18 +34,19 @@ This flexibility will be accomplished by separating the physics algorithms from 
 -----------------------------------------
 ### Required ENV variables for CUDA Build
 -----------------------------------------
-    - CUDA\_HOME
-    - CUDA\_INCLUDE
-    - CUDA\_LIB
-    - MPI\_HOME
+
+    - CUDA_HOME
+    - CUDA_INCLUDE
+    - CUDA_LIB
+    - MPI_HOME
 
 ------------
 ### Building
------------- 
+ 
 
 Run the following in *location-of-repo*/plasma/PlasmaApp
 
-<dt><code>$>gmake packages</code></dt>
+<dt><code>$gmake packages</code></dt>
 
 <dd>builds all of the required libraries.
 
@@ -51,17 +54,17 @@ If trilinos is not installed, it will be.
 
 In *location-of-repo*/plasma/PlasmaApp/pkgs/trilinos/trilinos-build,
 
-Run <dt><code>$ >gmake install</code></dt>
+Run <dt><code>$gmake install</code></dt>
 
 To make tests, run in *location-of-repo*/plasma/PlasmaApp
-<dt><code>$ >gmake TRILINOS=1</code></dt>
+<dt><code>$gmake TRILINOS=1</code></dt>
 <dd>build all of the test routines
 
 Be sure to use the parallel build option <code>-j N</code> where N is the number of
 threads to use. 
 
 Note: Double precision is toggled in the file PlasmaData.h via the preprocessor define
-<code>DOUBLE\_PRECISION</code>. to use single precision simply comment out this line of code.
+<code>DOUBLE_PRECISION</code>. to use single precision simply comment out this line of code.
 
 Note 2: MPI libraries may be different on your machine. You may have to edit the makefile
 to use the correct one.
@@ -92,9 +95,9 @@ gnuplot needs to be enabled
 
 running the Two Stream Instability problem
 
-<dt><code>$> mpirun -N $NUM\_NODES -n $NUM\_TASKS ./bin/TwoStream\_test -np $NUM\_PTCLS -nx 32 -Lx 1 -dt 0.5 -s 100</code></dt>
+<dt><code>$> mpirun -N $NUM_NODES -n $NUM_TASKS ./bin/TwoStream_test -np $NUM_PTCLS -nx 32 -Lx 1 -dt 0.5 -s 100</code></dt>
 
-<dt><code>$> mpirun -N $NUM\_NODES -n $NUM\_TASKS ./bin/IonAcoustic\_test -np $NUM\_PTCLS -nx 128 -Lx 144 -dt 0.5 -s 1000</code></dt>
+<dt><code>$> mpirun -N $NUM_NODES -n $NUM_TASKS ./bin/IonAcoustic_test -np $NUM_PTCLS -nx 128 -Lx 144 -dt 0.5 -s 1000</code></dt>
 
 
 --------------------------
