@@ -22,8 +22,10 @@ endif
 #Includes
 INCLUDE_PATHS:=	-I./Util \
 				-I./Field_Solvers/ES1D \
-				-I/sw/arcts/centos7/stacks/gcc/4.8.5/openmpi/3.1.6/include \
-				-I/sw/arcts/centos7/cuda/8.0.61/include 
+				-I$(MPI_HOME)/include \
+				-I$(CUDA_INCLUDE)
+				#-I/sw/arcts/centos7/cuda/8.0.61/include 
+				
 
 				#-I/usr/local/cuda/include \
 				#-I/users/payne/cuda/include \
@@ -37,7 +39,7 @@ INCLUDE_PATHS:=	-I./Util \
 				
 #Library Path
 #LIBRARY_PATHS=/usr/local/cuda-5.0/lib64:/usr/lib64/mpich2/lib:$(LD_LIBRARY_PATH):/usr/lib64/openmpi/lib:/usr/lib64
-LIBRARY_PATHS=/sw/arcts/centos7/cuda/8.0.61/lib64:$(LD_LIBRARY_PATH):/usr/lib64
+LIBRARY_PATHS=$(CUDA_LIB):$(LD_LIBRARY_PATH):/usr/lib64
 CXX_FLAGS_ALL = -O3  -std=c++0x  -fopenmp -pthread -march=native -DNO_MIC
 CXX_FLAGS= $(CXX_FLAGS_ALL) $(INCLUDE_PATHS)  #-L${LIBRARY_PATHS}
 #CXX_FLAGS+=-Dshitty_timer# -bf-include=$(BYFL_INCLUDE) 
@@ -57,7 +59,7 @@ NVCC_FLAGS= -m64 -O3 -rdc=true -arch=compute_20 -code=sm_20 --ptxas-options=-v -
 #Moonlight Library config
 LIBS = -lrt -lmpi_cxx -L/opt/cudatoolkit-4.1/lib64  -lcudart #-L/users/payne/cuda/lib64 -lcudart #
 
-VPATH+= ./:./Problem_Initializers:./Field_Solvers:../gnuplot_c/src:./Field_Solvers/ES1D:./Util:/usr/local/cuda-5.0/lib64:/usr/local/cuda/include:./:./Field_Solvers/HoLoInterface:./Normalizations:./Util/webui:./Util/IPICAdaptor:./Field_Solvers/HoLoInterface2D
+VPATH+= ./:./Problem_Initializers:./Field_Solvers:../gnuplot_c/src:./Field_Solvers/ES1D:./Util:$(CUDA_PATH):$(CUDA_INCLUDE):./:./Field_Solvers/HoLoInterface:./Normalizations:./Util/webui:./Util/IPICAdaptor:./Field_Solvers/HoLoInterface2D
 
 
 A := $(shell echo abc)
@@ -77,7 +79,7 @@ endif
 
 ifndef MACHINE
 	LIBS = -lrt  #-lmpichcxx 
-	CUDA_LIB_DIR=/sw/arcts/centos7/cuda/8.0.61/lib64
+	CUDA_LIB_DIR=$(CUDA_LIB)
 else
 ifeq "$(MACHINE)" "moonlight"
 	LIBS = -lrt -lmpi_cxx 
