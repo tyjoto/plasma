@@ -2,9 +2,9 @@ PlasmaApp: A multi-architecture implicit particle-in-cell proxy
 =========================================
 
 ### THIS IS A COLLEGE SCIENTIFIC COMPUTING CLASS LEARNING PROJECT
-trying to take this PIC proxy app to make it into a PIC-DSMC proxy app
+Trying to take this PIC proxy app to make it into a PIC-DSMC proxy app
 while also becoming familarized with GITHUB 
-
+-------------------------------------------
 PlasmaApp is a flexible implicit charge and energy conserving implicit PIC framework.
 This codes aims to demonstrate the potential of using a fluid plasma model to accelerate a kinetic model 
 through a High-Low order system coupling. The multi-granularity of this problem gives it the ability to 
@@ -19,9 +19,22 @@ This flexibility will be accomplished by separating the physics algorithms from 
 
 
 ### Required Packages
-Tested with:
+Tested for NON-CUDA build:
 gcc/8.2.0
 openmpi/3.1.6
+
+Tested for CUDA build
+gcc/4.8.5
+openmpi/3.1.6
+cuda/8.0.61
+
+### Required ENV variables for CUDA Build
+CUDA\_HOME
+CUDA\_INCLUDE
+CUDA\_LIB
+
+MPI\_HOME
+
 
 ### Building 
 
@@ -60,6 +73,8 @@ to use the correct one.
 
 
 ### Running
+
+***NOT TESTED for GPUs***
 
 There are several test problems currently implemented.
 1. Two Stream Instability
