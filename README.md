@@ -22,27 +22,27 @@ This flexibility will be accomplished by separating the physics algorithms from 
 -------------------------
 ***Tested for NON-CUDA build:***
    
-    - gcc/8.2.0
-    - openmpi/3.1.6
+    gcc/8.2.0
+    openmpi/3.1.6
 
 ***Tested for CUDA build:***
 
-    - gcc/4.8.5
-    - openmpi/3.1.6
-    - cuda/8.0.61
+    gcc/4.8.5
+    openmpi/3.1.6
+    cuda/8.0.61
 
 -----------------------------------------
 ### Required ENV variables for CUDA Build
 -----------------------------------------
 
-    - CUDA_HOME
-    - CUDA_INCLUDE
-    - CUDA_LIB
-    - MPI_HOME
+    CUDA_HOME
+    CUDA_INCLUDE
+    CUDA_LIB
+    MPI_HOME
 
 ------------
 ### Building
- 
+------------ 
 
 Run the following in *location-of-repo*/plasma/PlasmaApp
 
