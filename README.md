@@ -19,26 +19,22 @@ This flexibility will be accomplished by separating the physics algorithms from 
 
 
 ### Required Packages
-Tested for NON-CUDA build:
+-------------------------
+***Tested for NON-CUDA build:***
 
 gcc/8.2.0
-
 openmpi/3.1.6
 
-Tested for CUDA build
+***Tested for CUDA build:***
 
 gcc/4.8.5
-
 openmpi/3.1.6
-
 cuda/8.0.61
 
 ### Required ENV variables for CUDA Build
 
 CUDA\_HOME
-
 CUDA\_INCLUDE
-
 CUDA\_LIB
 
 MPI\_HOME
